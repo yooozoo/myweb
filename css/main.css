@@ -1,0 +1,162 @@
+  *{
+    font-family: "Microsoft Jhenghei";
+  }
+    img[usemap],div img{
+      width: 100%;
+      height: auto;
+    }
+    img.image{
+      width: auto;
+    }
+    a.social{
+      padding: 15px 5px 15px 5px;
+      float: right;
+    }
+    a.social img{
+      width: 20px;
+      height: 20px;
+
+    }
+    div.section{
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    div.socialpanel{
+          position: absolute;
+    right: 0;
+    }
+    p{
+          font-size: 24px;
+    line-height: 40px;
+    font-weight: 800;
+    padding: 50px 0;
+    
+    }
+    .scroll{
+          position: relative;
+    top: -50px;
+    }
+    #topsec,#sticker-sticky-wrapper,#sticker{
+      z-index: 1000;
+    }
+    #bgg{
+      position: absolute;
+      -webkit-transform: translate3d(0,0,0);
+      display: none;
+      background: rgba(0,0,0,0.78);
+      z-index: 500;
+      width: 100vw;
+      height: 100%;
+    top: 0;
+    }
+    #content{
+      position: relative;
+      -webkit-transform: translate3d(0,0,0);
+    }
+    .ophalf{
+      position: relative;
+      /*opacity: 0.5;
+      -webkit-opacity: 0.5;
+      -o-opacity: 0.5;
+      -moz-opacity: 0.5;
+      -ms-opacity: 0.5;*/
+      z-index: -1;
+      -webkit-transform: translate3d(0,0,0);
+    }
+
+
+
+ul.playlist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+ul.playlist li {
+    margin: 0 3px;
+    float: left;
+}
+ul.playlist li a img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.tv {
+    /*background: #666;*/
+    padding: 0 0 10px 0;
+    width: 100%;
+    height: 100%;
+}
+.video {
+    width: 100%;
+    height: 500px;
+    height: 35vw;
+}
+.video iframe{
+  width: 100%;
+  height: 500px;
+  height: 35vw;
+}
+#logo-m{
+  display: none;
+}
+img.normal{
+  width: auto;
+  height: auto;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 767px){
+  .navitem:hover, .navitem.active{
+  border-bottom: 0px solid #d8c87d !important;
+}
+  .video {
+    width: 100%;
+    height: 500px;
+    height: 75vw;
+}
+.video iframe{
+  width: 100%;
+  height: 500px;
+  height: 75vw;
+}
+p{
+          font-size: 14px;
+    line-height: 20px;
+    font-weight: 800;
+    padding: 30px;
+    
+    }
+img.normal{
+  width: 80%;
+  height: auto;
+  margin-bottom: 0px;
+}
+img.normal._1{
+  padding: 20px 0 !important;
+}
+.sticky-wrapper.is-sticky #logo-m{
+  display: block;
+  width:auto !important;    position: absolute;
+  height: 42px;
+    left: 0;
+    top: 0px;
+    right: 0;
+    margin: 0 auto;
+}
+img.image{
+      width: 140px;
+}
+}
+@media screen and (max-width: 479px){
+.w-col {
+     width: 25%; 
+}
+}
+@media screen and (max-width: 767px){
+.w-col {
+     width: 25%; 
+    left: auto;
+    right: auto;
+}
+}
